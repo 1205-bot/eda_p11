@@ -19,8 +19,8 @@ imp_arr(arr, 0)
 
 #A) i == 0
 #B) i + 1
-#C) T(n) = T(n + 1)
-#D) T(n) + T(n + 1) = 0
+#C) T(n) = T(n - 1) + 1
+#D) T(n) + T(n - 1) = 1
 #   si T(n) = x^1
 #   (x - 1)(x - 1) = 0
 #   O(T(n)) = n
