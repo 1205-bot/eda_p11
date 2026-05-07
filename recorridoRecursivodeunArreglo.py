@@ -17,7 +17,7 @@ arr = [10, 20, 30, 40, 50]
 
 imp_arr(arr, 0)
 
-#A) i == 0
+#A) if i == len(arr)
 #B) i + 1
 #C) T(n) = T(n - 1) + 1
 #D) T(n) + T(n - 1) = 1
